@@ -267,8 +267,12 @@ export default {
 
   methods: {
     filterFields (fields) {
+      // https://stackoverflow.com/questions/990904/remove-accents-diacritics-in-a-string-in-javascript/37511463#37511463
+      const toNFD = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+
+      const q = toNFD(this.query.toLowerCase())
       return fields
-        .filter(f => f.name.toLowerCase().indexOf(this.query.toLowerCase()) > -1 || f.label.toLowerCase().indexOf(this.query.toLowerCase()) > -1)
+        .filter(f => toNFD(f.name.toLowerCase()).indexOf(q) > -1 || toNFD(f.label.toLowerCase()).indexOf(q) > -1)
     },
     selectField (field) {
       if (this.selectedFields.some(selectedField => selectedField.label === field.label)) return
