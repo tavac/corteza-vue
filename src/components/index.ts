@@ -58,4 +58,9 @@ export {
   FieldPicker,
 } from './field'
 
+export {
+  CItemPicker,
+  CItem,
+} from './itemPicker'
+
 export { default as C3 } from './c3'
