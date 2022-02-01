@@ -1,4 +1,4 @@
-import { apiClients, automation } from '@cortezaproject/corteza-js'
+import { apiClients, automation } from '@tavac/corteza-js'
 import { ActionContext, StoreOptions } from 'vuex'
 
 interface Options {

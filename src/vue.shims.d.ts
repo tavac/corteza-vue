@@ -5,7 +5,7 @@ declare module '*.vue' {
 }
 
 declare module 'vue/types/vue' {
-  import { apiClients, EventBus } from '@cortezaproject/corteza-js'
+  import { apiClients, EventBus } from '@tavac/corteza-js'
   import { plugins } from './plugins'
   interface Vue {
     $SystemAPI: typeof apiClients.System;

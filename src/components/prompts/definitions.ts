@@ -1,4 +1,4 @@
-import { automation } from '@cortezaproject/corteza-js'
+import { automation } from '@tavac/corteza-js'
 
 const variants = ['primary', 'secondary', 'success', 'warning', 'danger', 'info', 'light', 'dark']
 

@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 
 import moment from 'moment'
-import { system } from '@cortezaproject/corteza-js'
+import { system } from '@tavac/corteza-js'
 
 function intervalToMS (from, to) {
   if (!from || !to) {

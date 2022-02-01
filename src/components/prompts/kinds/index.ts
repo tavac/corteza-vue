@@ -7,8 +7,8 @@ import notification from './CPromptNotification.vue'
 import options from './CPromptOptions.vue'
 import { Component } from 'vue'
 import { pType, pVal } from '../utils'
-import { automation } from '@cortezaproject/corteza-js'
-import { KV } from '@cortezaproject/corteza-js/dist/compose/types/chart/util'
+import { automation } from '@tavac/corteza-js'
+import { KV } from '@tavac/corteza-js/dist/compose/types/chart/util'
 
 interface Handler {
   (this: Component, input: automation.Vars): void|Promise<void>;

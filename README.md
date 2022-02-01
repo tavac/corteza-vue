@@ -5,8 +5,8 @@
 
   <div align="center">
 
-  [![Latest Version Card](https://img.shields.io/npm/v/@cortezaproject/corteza-vue)](https://img.shields.io/npm/v/@cortezaproject/corteza-vue)
-  [![Downloads Card](https://img.shields.io/npm/dm/@cortezaproject/corteza-vue)](https://img.shields.io/npm/dm/@cortezaproject/corteza-vue)
+  [![Latest Version Card](https://img.shields.io/npm/v/@tavac/corteza-vue)](https://img.shields.io/npm/v/@tavac/corteza-vue)
+  [![Downloads Card](https://img.shields.io/npm/dm/@tavac/corteza-vue)](https://img.shields.io/npm/dm/@tavac/corteza-vue)
   [![License Card](https://img.shields.io/github/license/cortezaproject/corteza-vue)](https://img.shields.io/github/license/cortezaproject/corteza-vue)
 
 

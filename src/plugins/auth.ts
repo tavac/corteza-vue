@@ -1,6 +1,6 @@
 import axios, { AxiosInstance } from 'axios'
 import { Make } from '../libs/url'
-import { system } from '@cortezaproject/corteza-js'
+import { system } from '@tavac/corteza-js'
 import { PluginFunction } from 'vue'
 
 const accessToken = Symbol('accessToken')
