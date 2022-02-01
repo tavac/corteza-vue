@@ -1,5 +1,5 @@
 {
-  "name": "@cortezaproject/corteza-vue",
+  "name": "@tavac/corteza-vue",
   "description": "Corteza Vue.js JavaScript/TypeScript libs",
   "version": "2021.9.6",
   "license": "Apache-2.0",
@@ -16,13 +16,13 @@
     "lint": "eslint src/** --ext .js,.ts",
     "test:unit": "mocha",
     "test:unit:cc": "nyc mocha",
-    "cdeps": "yarn upgrade @cortezaproject/corteza-js"
+    "cdeps": "yarn upgrade @tavac/corteza-js"
   },
   "gitHooks": {
     "pre-commit": "yarn lint"
   },
   "dependencies": {
-    "@cortezaproject/corteza-js": "git+//github.com/tavac/corteza-js.git#custom",
+    "@tavac/corteza-js": "git://github.com/tavac/corteza-js.git#custom",
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
     "@fortawesome/vue-fontawesome": "^0.1.9",
